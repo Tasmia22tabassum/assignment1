@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header{
+    background-color: white;
+}
+
+nav{
+    max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 120px;
+    padding: 16px 0px;
+    align-items: center;
+}
+
+nav div{
+    gap: 346px;
+}
+
+.features ul{
+    padding: 18px 0px;
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+
+.access{
+    padding: 8px 0px;
+}
+
+.features ul a{
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+.butn{
+    background-color: #30b868;
+    border: none;
+    padding: 12.5px 16px;
+    color: white;
+    font-size: 16px;
+    border-radius: 4px;
+}
