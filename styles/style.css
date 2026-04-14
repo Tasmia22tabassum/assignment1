@@ -135,3 +135,25 @@ nav{
     color: transparent;
     -webkit-text-stroke: 1px white;
 }
+
+#notes .notes-content{
+    max-width: 1360px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 35px 120px 0;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.notes-content h1{
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    color: #001931;
+}
+
+.notes-content p{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+}
