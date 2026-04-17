@@ -258,3 +258,43 @@ nav{
     gap: 10px;
     margin-bottom: 10px;
 }
+
+#ready-part{
+    max-width: 1600px;
+    width: 100%;
+    margin: 0 120px 120px;
+    background-color: whitesmoke;
+}
+
+#ready-part .ready-message h1{
+    font-size: 40px;
+    font-weight: bold;
+    color: #001931;
+    text-align: center;
+    margin-top: 80px;
+    margin-bottom: 16px;
+}
+
+#ready-part .ready-message #message-one{
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+
+#ready-part .ready-message #message-two{
+    color: #627382;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+
+#ready-part .ready-message .butn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 0 auto;
+    margin-bottom: 16px;
+}
