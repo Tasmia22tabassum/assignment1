@@ -58,7 +58,6 @@ nav{
 .banner-content{
     max-width: 1360px;
     width: 100%;
-    height: 379px;
     margin: 0 auto;
     text-align: center;
     padding: 15px 295px 45px;
@@ -213,4 +212,49 @@ nav{
     max-width: 32px;
     width: 100%;
     height: 32px;
+}
+
+#solution{
+    max-width: 1600px;
+    width: 100%;
+    margin: 120px;
+}
+
+#solution .the-solution{
+    display: flex;
+    gap: 60px;
+    align-items: center;
+}
+
+#solution .the-solution .checklist{
+    max-width: 700px;
+    width: 100%;
+}
+
+.the-solution .checklist h6{
+    font-size: 16px;
+    color: #30b868;
+    margin-bottom: 16px;
+}
+
+.the-solution .checklist #heading-big{
+    font-size: 48px;
+    font-weight: bold;
+    color: #001931;
+    margin-bottom: 16px;
+}
+
+.the-solution .checklist #basic{
+    font-size: 16px;
+    line-height: 20px;
+    color: #627382;
+    margin-bottom: 40px;
+}
+
+.the-solution .checklist .bullets li{
+    list-style-type: none;
+    color: #001931;
+    display: flex;
+    gap: 10px;
+    margin-bottom: 10px;
 }
