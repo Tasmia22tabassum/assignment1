@@ -271,7 +271,7 @@ nav{
     font-weight: bold;
     color: #001931;
     text-align: center;
-    margin-top: 80px;
+    padding-top: 80px;
     margin-bottom: 16px;
 }
 
@@ -287,7 +287,7 @@ nav{
     color: #627382;
     font-size: 16px;
     text-align: center;
-    margin-bottom: 80px;
+    padding-bottom: 80px;
 }
 
 #ready-part .ready-message .butn{
@@ -297,4 +297,51 @@ nav{
     gap: 10px;
     margin: 0 auto;
     margin-bottom: 16px;
+}
+
+#final{
+    max-width: 2000px;
+    width: 100%;
+    background-color: #1f456e;
+    padding: 120px 120px 50px;
+}
+
+#final .footer .logo-part{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+#final .footer .logo-part img{
+    max-width: 139px;
+    width: 100%;
+    height: 60px;
+}
+
+#final .footer .logo-part .social-part p{
+    color: white;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 16px;
+}
+
+#final .footer .logo-part .social-part .social-media{
+    display: flex;
+    gap: 16px;
+}
+
+#final .footer .logo-part .social-part .social-media span{
+    background-color: white;
+    border-radius: 50%;
+}
+
+#final .footer .logo-part .social-part .social-media span i{
+    color: #1f456e;
+}
+
+#final .footer p{
+    margin-top: 30px;
+    color: white;
+    text-align: center;
 }
