@@ -35,6 +35,11 @@ nav{
     text-decoration: none;
 }
 
+.features ul a:hover{
+    color: #30b868;
+    cursor: pointer;
+}
+
 .butn{
     background-color: #30b868;
     border: none;
@@ -42,6 +47,11 @@ nav{
     color: white;
     font-size: 16px;
     border-radius: 4px;
+}
+
+.butn:hover{
+    background-color: green;
+    cursor: pointer;
 }
 
 #banner{
@@ -135,6 +145,11 @@ nav{
     -webkit-text-stroke: 1px white;
 }
 
+#unique:hover{
+    background-color: #1f456e;
+    cursor: pointer;
+}
+
 #notes{
     max-width: 2000px;
     width: 100%;
@@ -214,6 +229,11 @@ nav{
     height: 32px;
 }
 
+.note-card:hover{
+    cursor: cell;
+    box-shadow: 0px 15px 20px;
+}
+
 #solution{
     max-width: 1600px;
     width: 100%;
@@ -257,6 +277,11 @@ nav{
     display: flex;
     gap: 10px;
     margin-bottom: 10px;
+}
+
+.the-solution .checklist .bullets li:hover{
+    color: #30b868;
+    cursor: pointer;
 }
 
 #ready-part{
@@ -336,8 +361,17 @@ nav{
     border-radius: 50%;
 }
 
+#final .footer .logo-part .social-part .social-media span:hover{
+    cursor: grab;
+    background-color: #30b868;
+}
+
 #final .footer .logo-part .social-part .social-media span i{
     color: #1f456e;
+}
+
+#final .footer .logo-part .social-part .social-media span:hover i{
+    color: white;
 }
 
 #final .footer p{
